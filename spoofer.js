@@ -7,7 +7,7 @@
             
             if (url.includes('server_list.json')) {
                 // Reemplaza esta URL con la de tu JSON modificado
-                const modifiedDataUrl = 'https://api.jsonbin.io/v3/b/66e21824ad19ca34f8a38e6f';
+                const modifiedDataUrl = 'https://raw.githubusercontent.com/estebanalpha/RucoyOnline-serverlist/main/server_list.json';
                 
                 const modifiedResponse = await fetch(modifiedDataUrl);
                 const modifiedData = await modifiedResponse.json();
